@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const btn_cuenta_soporte = document.getElementById("btn_cuenta_soporte");
 
   btn_inicio.addEventListener("click", function () {
-    window.location.href = "index.html";
+    window.location.href = "./index.html";
   });
 
   btn_crear_reporte.addEventListener("click", function () {
