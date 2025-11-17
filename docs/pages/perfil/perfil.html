@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoAlerta</title>
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="perfil.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="titulo-pagina">
+        <a href="/index.html">Regresar</a>
+        <h1>EcoAlerta</h1>
+      </div>
+      <div class="formulario">
+        <form action="">
+          <div class="campo foto">
+            <img src="/assets/images/perfil.jpg" alt="avatar" />
+            <span>Cambia tu foto de perfil</span>
+          </div>
+          <div class="campo">
+            <label for="">Nombre Completo</label>
+            <input
+              class="input"
+              type="text"
+              placeholder="Ingresa tu nombre"
+              value="Renzo Revilla"
+            />
+          </div>
+          <div class="campo">
+            <label for="">Correo electrónico</label>
+            <input
+              class="input"
+              type="text"
+              placeholder="Ingresa tu correo"
+              value="renzo@gmail.com"
+            />
+          </div>
+          <div class="campo">
+            <label for="">Distrito</label>
+            <select class="input" name="" id="">
+              <option value="0">Selecciona tu distrito</option>
+              <option value="1" selected>Santiago de Surco</option>
+              <option value="2">Chorrillos</option>
+              <option value="3">San Miguel</option>
+            </select>
+          </div>
+          <div class="campo">
+            <label for="">Telefono (opcional)</label>
+            <input
+              class="input"
+              type="tel"
+              placeholder="Ingresa tu nombre"
+              value="999999999"
+            />
+          </div>
+          <div class="campo">
+            <label for="">Biografia</label>
+            <textarea class="input" rows="7">
+EcoAlerta es una startup innovadora fundada por estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC), de la Facultad de Ingeniería.</textarea
+            >
+          </div>
+          <div class="campo">
+            <button class="btn btn-primary">Guardar cambios</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
