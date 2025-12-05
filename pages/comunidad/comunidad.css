@@ -1,0 +1,366 @@
+
+.Cont-principal{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    color: #0B1C2C;
+}
+.Cont-secciones{
+    background-color: #95f0eb65;
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+    border: 1.5px solid #456d6b;
+    border-radius: 10px;
+}
+.Cont-secciones ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.Cont-secciones ul li{
+    justify-content: space-around;
+}
+.Cont-secciones ul li a{
+    text-decoration: none;
+    color: #456d6b;
+    display: block; 
+    background-color: white; 
+    padding: 15px 50px;
+    border: 2px solid #456d6b;
+    border-radius: 10px;
+    margin: 10px 0; 
+    transition: all 0.3s ease;
+}
+.Cont-secciones ul li a.seccion-activa {
+    background-color: #456d6b; 
+    color: white;
+    font-weight: bold;
+    border: 2px solid #456d6b;
+}
+.Cont-Programa-Voluntariado{
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #456d6b;
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Cont-Programa-Voluntariado img{
+    width: 200px;
+    height: 190px;
+    border-radius: 20px;
+}
+.Cont-Texto-Voluntariado{
+    flex-grow: 1;
+    padding: 20px;
+}
+.Cont-Programa-Voluntariado p{
+    margin: 10px 0;
+    padding: 0;
+}
+.Cont-Programa-Voluntariado p span{
+    display: block;
+    line-height: 1.5;
+    color: #444
+}
+.Cont-Programa-Voluntariado a{
+    background-color: white;
+    color: #456d6b;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    flex-shrink: 0; 
+    transition: background-color 0.3s ease;
+    border: 2px solid #456D6B;
+}
+#Cont-interfaz section {
+    display: none;
+    padding: 20px;
+}
+
+#Cont-interfaz #ver-detalles {
+    display: block; 
+}
+.Con-Botones{
+    display: flex;
+    flex-direction: column;
+}
+.Con-Botones a{
+    margin: 10px;
+}
+.Con-Botones a:hover{
+    color: white;
+    background-color: #456D6B;
+}
+
+.Cont-Programa-Voluntariado p{
+    flex-grow: 1;
+    padding-right: 20px;
+}
+.Cont-Otras-Campanias{
+    width: 100%;
+}
+.Cont-Campania {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.Cont-Campania ul{
+    list-style: none;
+    color: gray;
+    width: 100%;
+    padding: 0;
+}
+.Cont-Reciclaton,.Cont-Limpieza-Playa,.Cont-Plantacion-Arboles{
+    border-radius: 20px;
+    max-width: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border: 2px solid #456D6B;
+    padding: 0px 20px;
+    margin: 10px;
+}
+.Cont-Campania ul li{
+    width: 280px;
+    margin: 10px 0;
+}
+.Cont-Campania ul li a {
+    color: #456D6B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #456D6B;
+    border-radius: 9px;
+    padding: 10px;
+    display: block; 
+    margin: 0 auto;
+}
+.Cont-Campania ul li a:hover{
+    cursor: pointer;
+    background-color:#456D6B;
+    color: white;
+}
+
+.Cont-Ver-Mas-Campañas a{
+    background-color: white;
+    color: #456D6B;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+    text-align: center;
+    border: 2px solid #456d6b;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+.Cont-Ver-Mas-Campañas a:hover{
+    color: white;
+    background-color: #456D6B;
+}
+.Cont-Final{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.Cont-Impacto-Voluntario{
+    width: 50%;
+    border: 2px solid #1AD84D;
+    background-color: #F0FDF4;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 20px;
+    border-radius: 20px;
+}
+.Cont-Impacto-Voluntario h3{
+    padding-left: 25px;
+}
+
+.Cont-Impacto-Voluntario ul{
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.Cont-Impacto-Voluntario ul li{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    margin-right:10px;
+    display: flex;
+    color: #1AD84D;
+    flex-direction: column;
+    width: 40%;
+    list-style: none;
+}
+.Cont-Impacto-Voluntario span{
+    color: gray;
+    font-size: medium;
+    padding-left: 50px;
+    text-align: left;
+    font-weight: 200;
+}
+.Cont-Tu-Posicion{
+    width: 30%;
+    border: 2px solid #FFEB3B;
+    background-color: #FFFBEB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 20px;
+    border-radius: 20px;   
+}
+.Cont-Tu-Posicion h3{
+    padding-left: 25px;
+}
+.Cont-Tu-Posicion ul {
+    padding: 0 30px;
+    list-style: none;
+}
+.Cont-Tu-Posicion ul li{
+    color: #FFEB3B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.Cont-Tu-Posicion ul li span{
+    color: gray;
+    font-weight: bold;
+    font-size: medium;
+}
+.Cont-Tu-Posicion ul li a{
+    color: #78350F;
+    background-color: #FFEB3B;
+    padding: 10px 40px;
+    margin:auto;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+/*Ranking e Insignias*/
+/* --- RANKING --- */
+.Cont-Podio {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Alinea las barras abajo */
+    gap: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.Puesto-1, .Puesto-2, .Puesto-3 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 15px 15px 0 0;
+    width: 120px;
+    border: 1px solid #ddd;
+}
+.Puesto-1 { background-color: #ffeaa7; height: 180px; } /* Dorado */
+.Puesto-2 { background-color: #dfe6e9; height: 140px; } /* Plata */
+.Puesto-3 { background-color: #fab1a0; height: 120px; } /* Bronce */
+
+.Avatar { font-size: 40px; margin-bottom: 10px; }
+
+.Fila-Ranking {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    background-color: white;
+}
+.Tu-Fila {
+    background-color: #e0f7fa; /* Resaltar tu fila */
+    border: 2px solid #456d6b;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* --- INSIGNIAS --- */
+.Cont-Insignias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+.Insignia {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.Insignia.Bloqueada {
+    opacity: 0.5;
+    background-color: #f9f9f9;
+}
+
+/* --- CALENDARIO --- */
+.Evento-Calendario {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-left: 5px solid #456d6b;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.Fecha-Evento {
+    text-align: center;
+    margin-right: 20px;
+    font-weight: bold;
+    color: #456d6b;
+}
+.Fecha-Evento .Dia { font-size: 24px; display: block; }
+.Info-Evento { flex-grow: 1; }
+.Boton-Agendar {
+    text-decoration: none;
+    background-color: #456d6b;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* --- CANJEAR --- */
+.Cont-Premios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+.Tarjeta-Premio {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Tarjeta-Premio button {
+    background-color: #456d6b;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.Tarjeta-Premio button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
