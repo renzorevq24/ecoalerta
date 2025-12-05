@@ -83,7 +83,111 @@
           </div>
         </header>
         <main>
-          <div class="contenedor">Contenido crear reporte</div>
+          <div class="contenedor descripcion-reporte">
+            <h1 class="titulo-principal">Crear Nuevo Reporte</h1>
+
+            <!-- Progreso -->
+            <div class="progreso-reporte">
+              <div class="paso completado">
+                <div class="icono">&#10003;</div>
+                <span>Foto</span>
+              </div>
+              <div class="linea"></div>
+
+              <div class="paso completado">
+                <div class="icono">&#10003;</div>
+                <span>Ubicación</span>
+              </div>
+              <div class="linea"></div>
+
+              <div class="paso actual">
+                <div class="icono-num">3</div>
+                <span>Descripción</span>
+              </div>
+              <div class="linea"></div>
+
+              <div class="paso pendiente">
+                <div class="icono-num">4</div>
+                <span>Confirmar</span>
+              </div>
+            </div>
+
+            <!-- Contenedor blanco -->
+            <div class="card-descripcion">
+              <h2 class="subtitulo">Describe el punto crítico</h2>
+              <p class="texto-secundario">
+                Proporciona detalles que ayuden a las autoridades a entender
+                mejor la situación
+              </p>
+
+              <!-- Campo de descripción -->
+              <label class="label-descripcion">Descripción del problema </label>
+              <p class="texto-secundario">
+                Describe qué observaste en este punto crítico
+              </p>
+
+              <textarea
+                id="descripcion"
+                maxlength="500"
+                class="textarea-descripcion"
+              ></textarea>
+
+              <div class="contador" id="contador">234/500 caracteres</div>
+
+              <!-- Información adicional -->
+              <h3 class="info-adicional-titulo">
+                Información adicional (opcional)
+              </h3>
+
+              <div class="opciones-adicionales">
+                <label class="checkbox-op">
+                  <input type="checkbox" />
+                  <span class="check"></span>
+                  Genera mal olor
+                </label>
+
+                <label class="checkbox-op">
+                  <input type="checkbox" />
+                  <span class="check"></span>
+                  Presencia de plagas
+                </label>
+
+                <label class="checkbox-op">
+                  <input type="checkbox" />
+                  <span class="check"></span>
+                  Obstruye vía pública
+                </label>
+
+                <label class="checkbox-op">
+                  <input type="checkbox" />
+                  <span class="check"></span>
+                  Riesgo para la salud
+                </label>
+
+                <label class="checkbox-op">
+                  <input type="checkbox" />
+                  <span class="check"></span>
+                  Área escolar/sensible cercana
+                </label>
+              </div>
+
+              <!-- Consejo -->
+              <div class="consejo">
+                💡 <strong>Consejo:</strong> Sé específico y objetivo. Incluye
+                detalles como el tamaño aproximado de la acumulación o hace
+                cuánto tiempo está ahí.
+              </div>
+            </div>
+
+            <!-- Botones finales -->
+            <div class="acciones-finales">
+              <button class="btn-back">← Anterior</button>
+              <div class="acciones-derecha">
+                <button class="btn-secondary">Guardar borrador</button>
+                <button class="btn-primary">Continuar →</button>
+              </div>
+            </div>
+          </div>
         </main>
       </div>
     </div>
