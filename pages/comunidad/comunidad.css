@@ -1,0 +1,206 @@
+/* --- Comunidad EcoAlerta --- */
+
+.comunidad {
+  padding: 25px 40px;
+}
+
+.titulo-principal {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+/* TABS */
+.tabs-comunidad {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 35px;
+}
+
+.tab-com {
+  padding: 12px 25px;
+  border-radius: 14px;
+  border: 1px solid #cdd5d0;
+  background: #f4f7f5;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.tab-com.activo {
+  background: #cfe8e0;
+  border-color: #2f7f68;
+  color: #2f7f68;
+}
+
+/* Programa principal */
+.subtitulo {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.card-programa {
+  background: white;
+  border: 1px solid #e5e7eb;
+  padding: 25px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.img-programa {
+  font-size: 55px;
+}
+
+.info-programa {
+  flex: 1;
+}
+
+.badge-proximamente {
+  background: #d1fae5;
+  color: #047857;
+  padding: 4px 12px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.titulo-campaña {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0 10px;
+}
+
+.detalle {
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+.btn-inscribirme {
+  background: #2f7f68;
+  padding: 12px 22px;
+  border: none;
+  color: white;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Otras campañas */
+.mt-40 {
+  margin-top: 40px;
+}
+
+.otras-campanias {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.card-mini {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+}
+
+.titulo-mini {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.mini-detalle {
+  color: #6b7280;
+  margin-bottom: 18px;
+  line-height: 1.4;
+}
+
+.btn-mini {
+  background: #e3ece8;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ver-todas {
+  margin: 15px 0 35px;
+}
+
+.ver-todas a {
+  color: #2f7f68;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Impacto voluntario */
+.impacto-voluntario {
+  display: flex;
+  gap: 25px;
+}
+
+.impact-card {
+  flex: 1;
+  border-radius: 14px;
+  padding: 25px;
+}
+
+.impact-card.verde {
+  background: #e6f7ef;
+  border: 1px solid #a7dac2;
+}
+
+.impact-card.amarillo {
+  background: #fffbe6;
+  border: 1px solid #f5d470;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.valor {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1f4a3d;
+}
+
+.label {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.btn-historial,
+.btn-ranking {
+  padding: 10px 18px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-historial {
+  background: white;
+}
+
+.btn-ranking {
+  background: #fcd34d;
+}
+
+.ranking-numero {
+  font-size: 40px;
+  font-weight: 800;
+  color: #d97706;
+  margin: 10px 0 0;
+}
+
+.ranking-label {
+  font-size: 14px;
+  color: #6b7280;
+}
