@@ -83,7 +83,97 @@
           </div>
         </header>
         <main>
-          <div class="contenedor">Contenido seguimiento</div>
+          <div class="contenedor seguimiento-reportes">
+            <h1 class="titulo-principal">Seguimiento de Reportes</h1>
+
+            <!-- Filtros superiores -->
+            <div class="filtros-superiores">
+              <div class="campo-busqueda">
+                <span class="icono-busqueda">🔍</span>
+                <input type="text" placeholder="Buscar por ID, ubicación..." />
+              </div>
+
+              <button class="btn-filtro activo">🔴 Todos los estados</button>
+              <button class="btn-filtro">📅 Últimos 30 días</button>
+              <button class="btn-filtro">📍 Mi distrito</button>
+              <button class="btn-ver-mapa">🗺️ Ver Mapa</button>
+            </div>
+
+            <!-- Tabs -->
+            <div class="tabs-seguimiento">
+              <button class="tab-seg activo">Todos (24)</button>
+              <button class="tab-seg">Críticos (8)</button>
+              <button class="tab-seg">En Proceso (10)</button>
+              <button class="tab-seg">Resueltos (6)</button>
+            </div>
+
+            <!-- LISTA DE REPORTES -->
+            <div class="lista-reportes">
+              <!-- Reporte -->
+              <div class="item-reporte">
+                <img src="/assets/images/cam_icon.png" class="thumb-reporte" />
+                <div class="info-reporte">
+                  <h3 class="id-reporte">Reporte #R-2024–001234</h3>
+                  <p class="detalle">
+                    📍 Av. Arequipa 1234, Miraflores<br />
+                    📅 10 Nov 2024, 14:30 • Última actualización: Hace 2
+                    horas<br />
+                    Acumulación de basura en la esquina...
+                  </p>
+                </div>
+                <span class="badge badge-proceso">⛏️ En Proceso</span>
+              </div>
+
+              <div class="item-reporte">
+                <img src="/assets/images/cam_icon.png" class="thumb-reporte" />
+                <div class="info-reporte">
+                  <h3 class="id-reporte">Reporte #R-2024–001198</h3>
+                  <p class="detalle">
+                    📍 Jr. de la Unión 890, Cercado de Lima<br />
+                    📅 8 Nov 2024, 09:15 • Última actualización: Hace 1 día<br />
+                    Contenedores desbordados en zona comercial...
+                  </p>
+                </div>
+                <span class="badge badge-critico">⚠️ Crítico</span>
+              </div>
+
+              <div class="item-reporte">
+                <img src="/assets/images/cam_icon.png" class="thumb-reporte" />
+                <div class="info-reporte">
+                  <h3 class="id-reporte">Reporte #R-2024–001067</h3>
+                  <p class="detalle">
+                    📍 Av. Brasil 2456, Pueblo Libre<br />
+                    📅 5 Nov 2024, 16:45 • Resultado: 12 Nov 2024<br />
+                    ✔ Zona limpiada y residuos recolectados
+                  </p>
+                </div>
+                <span class="badge badge-resuelto">✔ Resuelto</span>
+              </div>
+
+              <div class="item-reporte">
+                <img src="/assets/images/cam_icon.png" class="thumb-reporte" />
+                <div class="info-reporte">
+                  <h3 class="id-reporte">Reporte #R-2024–001289</h3>
+                  <p class="detalle">
+                    📍 Parque Kennedy, Miraflores<br />
+                    📅 12 Nov 2024, 11:20 • Última actualización: Hace 5
+                    horas<br />
+                    Basura acumulada en área verde del parque...
+                  </p>
+                </div>
+                <span class="badge badge-critico">⚠️ Crítico</span>
+              </div>
+            </div>
+
+            <!-- PAGINACIÓN -->
+            <div class="paginacion">
+              <button class="pag-btn activo">1</button>
+              <button class="pag-btn">2</button>
+              <button class="pag-btn">3</button>
+              <span class="pag-spacer">…</span>
+              <span class="total-info">Mostrando 1–4 de 24 reportes</span>
+            </div>
+          </div>
         </main>
       </div>
     </div>
