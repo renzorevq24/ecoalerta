@@ -15,23 +15,24 @@
         <span>Juntos limpiamos el futuro</span>
       </div>
       <div class="formulario mt-4">
-        <form action="">
+        <form action="" id="login-form">
           <h2 class="texto-centrado my-2">Iniciar Sesión</h2>
           <div class="campo">
-            <label for="name">Correo electrónico</label>
-            <input class="input" type="text" placeholder="ejemplo@correo.com" />
+            <label for="email">Correo electrónico</label>
+            <input class="input" type="text" id="email" placeholder="ejemplo@correo.com" />
           </div>
           <div class="campo">
-            <label for="name">Contraseña</label>
+            <label for="password">Contraseña</label>
             <input
               class="input"
               type="password"
+              id="password"
               placeholder="Ingresa tu contraseña"
             />
           </div>
           <div class="campo texto-derecha">
             <a
-              href="/pages/recuperar_contrasena/recuperara_contrasena.html"
+              href=""
               class="link text-primary"
               >¿Olvidaste tu contraseña?</a
             >
@@ -53,7 +54,7 @@
             <span>¿No tienes cuenta?</span>
             <span
               ><a
-                href="/pages/crear_cuenta/crear_cuenta.html"
+                href=""
                 class="link bold text-primary"
                 >Registrate aquí</a
               ></span
@@ -62,5 +63,6 @@
         </form>
       </div>
     </div>
+    <script src="inicio_sesion.js"></script>
   </body>
 </html>
