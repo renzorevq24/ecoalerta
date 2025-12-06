@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoAlerta</title>
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="recuperara_contrasena.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="titulo-pagina">
+        <a href="/index.html">Regresar</a>
+        <h1>EcoAlerta</h1>
+      </div>
+      <div class="indicaciones mb-5">
+        <h1 class="bold">Recuperar Contraseña</h1>
+        <span
+          >Ingresa tu correo electrónico y te enviaremos un código de
+          verificación</span
+        >
+      </div>
+      <div class="formulario">
+        <form action="">
+          <div class="campo">
+            <label for="">Correo electrónico</label>
+            <input class="input" type="text" placeholder="ejemplo@correo.com" />
+          </div>
+
+          <div class="campo">
+            <button class="btn btn-primary">Enviar código</button>
+          </div>
+          <div class="campo separador mt-3"></div>
+          <div class="campo texto-centrado">
+            <h2 class="bold my-1">Ingresa el código</h2>
+            <span style="line-height: 1.5rem"
+              >Enviamos un código de 6 dígitos a <br />
+              <span class="text-primary bold">ren***@gmail.com</span></span
+            >
+          </div>
+          <div class="campo">
+            <li class="lista-codigo">
+              <ul>
+                <input class="input" type="text" maxlength="1" />
+              </ul>
+              <ul>
+                <input class="input" type="text" maxlength="1" />
+              </ul>
+              <ul>
+                <input class="input" type="text" maxlength="1" />
+              </ul>
+              <ul>
+                <input class="input" type="text" maxlength="1" />
+              </ul>
+              <ul>
+                <input class="input" type="text" maxlength="1" />
+              </ul>
+              <ul>
+                <input class="input" type="text" maxlength="1" />
+              </ul>
+            </li>
+          </div>
+          <div class="campo texto-centrado">
+            <span>¿No recibiste el código?</span>
+            <span class="bold text-primary">Reenviar código (00:45)</span>
+          </div>
+          <div class="campo">
+            <button class="btn btn-primary-light">Verificar código</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

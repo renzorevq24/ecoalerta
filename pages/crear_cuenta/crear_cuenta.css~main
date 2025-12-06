@@ -1,0 +1,9 @@
+.cabecera {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cabecera img {
+  width: 10rem;
+}
