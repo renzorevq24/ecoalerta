@@ -1,9 +1,0 @@
-.foto {
-  display: flex;
-  align-items: center;
-}
-
-.foto img {
-  width: 10rem;
-  border-radius: 0.5rem;
-}
