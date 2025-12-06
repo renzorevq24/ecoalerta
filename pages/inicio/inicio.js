@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
         this.classList.add("btn-active");
 
         setTimeout(() => {
-          window.location.href = urlToNavigate;
+          window.location.href = "../../" + urlToNavigate;
         }, 100);
       });
     }
