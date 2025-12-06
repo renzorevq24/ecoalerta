@@ -7,3 +7,58 @@
 .cabecera img {
   width: 10rem;
 }
+
+@media (max-width: 480px) {
+  .contenedor {
+    padding: 1rem;
+    max-width: 100%;
+  }
+
+  .formulario {
+    padding: 0;
+    margin-top: 1rem;
+  }
+
+  .formulario form {
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .campo {
+    min-width: 100% !important;
+  }
+
+  .input {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+
+  .btn {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .cabecera img {
+    width: 6rem;
+  }
+
+  .cabecera h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contenedor {
+    max-width: 420px;
+    padding: 1.5rem;
+  }
+
+  .campo {
+    min-width: 100% !important;
+  }
+
+  .cabecera img {
+    width: 7rem;
+  }
+}

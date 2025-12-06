@@ -136,7 +136,16 @@
   margin: 4px 0 0;
 }
 @font-face {
-    font-family: 'Poppins Medium'; 
-    src: url("fonts/Poppins-Medium.ttf");
-    font-weight: normal;
+  font-family: "Poppins Medium";
+  src: url("fonts/Poppins-Medium.ttf");
+  font-weight: normal;
+}
+
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #0b1c2c;
 }

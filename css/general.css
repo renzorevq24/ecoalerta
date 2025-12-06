@@ -4,8 +4,8 @@ body {
   padding: 0;
   max-height: 100%;
 }
-h1{
-    font-family: Arial, Helvetica, sans-serif;
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
 }
 html {
   scroll-behavior: smooth;
@@ -58,29 +58,29 @@ body {
 }
 .left-side .menu button,
 .left-side .menu a.btn-estilizado {
-    width: 100%; 
-    padding: 15px 20px;
-    margin: 5px 0;
-    text-align: left; 
-    border: none;
-    cursor: pointer;
-    background-color: transparent; 
-    color: white; 
-    transition: all 0.2s ease;
-    list-style: none;
+  width: 100%;
+  padding: 15px 20px;
+  margin: 5px 0;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  transition: all 0.2s ease;
+  list-style: none;
 }
 
 .left-side .menu button:hover,
 .left-side .menu a.btn-estilizado:hover {
-    color: #FFD857;
+  color: #ffd857;
 }
 
 .left-side .menu button.btn-active,
 .left-side .menu a.btn-estilizado.btn-active {
-    background-color: #456d6b;
-    color: #FFD857;
-    font-weight: bold;
-    border-left: 5px solid #FFD857; 
+  background-color: #456d6b;
+  color: #ffd857;
+  font-weight: bold;
+  border-left: 5px solid #ffd857;
 }
 
 .right-side {
@@ -233,6 +233,10 @@ body {
 
 .flex-1 {
   flex: 1;
+}
+
+.fix-border {
+  box-sizing: border-box;
 }
 
 .m-0 {
